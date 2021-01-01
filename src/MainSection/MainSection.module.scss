@@ -1,0 +1,65 @@
+.wrapper {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgImage {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    right: 0;
+    background-image: url('../assets/images/bmw_bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    z-index: -1;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        opacity: 0.75;
+    }
+}
+
+.centerWrapper {
+    display: flex;
+}
+
+.mainLogo {
+    width: 600px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.title {
+    align-self: flex-end;
+    color: #fff;
+    font-weight: 300;
+    font-size: 5em;
+    width: 700px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 0 0 20px;
+
+    .headingSecondLine {
+        font-size: 0.7em;
+        display: block;
+        text-align: right;
+
+        &::before {
+            content: '...';
+            margin-right: 2px;
+        }
+    }
+}

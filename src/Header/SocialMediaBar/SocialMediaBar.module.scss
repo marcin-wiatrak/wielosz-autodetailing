@@ -1,0 +1,14 @@
+.wrapper {
+    list-style: none;
+    display: inline-flex;
+}
+
+.item {
+    margin: 0 15px;
+    opacity: .6;
+    transition: ease .3s opacity;
+
+    &:hover {
+        opacity: 1
+    }
+}

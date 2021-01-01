@@ -1,0 +1,26 @@
+.item {
+    box-sizing: border-box;
+    border: 1px solid #9e9e9e00;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+    padding: 10px;
+    margin: 0 15px;
+    transition: ease .5s border;
+    
+    a {
+        // height: 100%;
+        // width: 100%;
+        display: block;
+        text-decoration: none;
+        color: #9e9e9e;
+        transition: ease .3s color;
+    }
+
+    &:hover {
+        border: 1px solid #9e9e9e;
+    }
+    
+    &:hover a {
+        color: #fff;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "emmet.preferences": {
+    
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "togglequotes.chars": [
+
+
+        "\"",
+        "'",
+        "`",
+        "",
+    ]
+}
