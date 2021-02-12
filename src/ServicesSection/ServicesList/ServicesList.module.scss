@@ -1,0 +1,33 @@
+.wrapper {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listItem {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: .5s ease;
+    
+    .listItemLink {
+        width: 100%;
+        color: #9e9e9e;
+        text-decoration: none;
+        padding: 20px 0;
+        transition: .5s ease;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    &:hover,
+    .active {
+        background-color: #f0f0f0;
+        color: #000;
+    }
+}

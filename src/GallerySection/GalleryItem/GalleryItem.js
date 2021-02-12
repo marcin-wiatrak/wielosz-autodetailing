@@ -5,10 +5,10 @@ import styles from './GalleryItem.module.scss';
 
 const GalleryItem = () => (
 
-    <div className={`${styles.wrapper}`} >
+    <a href="google.com" className={styles.wrapper} >
         <img src={VectraImg} alt="Opel Vectra"/>
         <h3>Opel Vectra</h3>
-    </div>
+    </a>
 
 );
 
